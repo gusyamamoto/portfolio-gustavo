@@ -1,21 +1,28 @@
 let scrollSpeed = 0;
 let scrollPosition = 0;
+let lastScrollY = window.scrollY; // Track the last scroll position
+let animationFrameId; // To store the requestAnimationFrame ID
 
 function startMarquee() {
     const marqueeGroups = document.querySelectorAll('.marquee__group');
-    scrollPosition -= scrollSpeed; // Update scroll position based on speed
 
-    // Move each group based on the scroll position
+    // Move each group based on the scroll position with smooth animation
     marqueeGroups.forEach(group => {
         group.style.transform = `translateX(${scrollPosition}px)`;
     });
 
-    requestAnimationFrame(startMarquee); // Continue the animation
+    // Request the next animation frame
+    animationFrameId = requestAnimationFrame(startMarquee); 
 }
 
 window.addEventListener('scroll', () => {
-    // Calculate speed based on scroll position
-    scrollSpeed = window.scrollY > 0 ? 2 : 0; // Adjust the speed as needed
+    const currentScrollY = window.scrollY;
+    scrollSpeed = currentScrollY - lastScrollY; // Calculate the speed based on scroll direction
+
+    // Update scroll position based on speed, and apply smoothing
+    scrollPosition -= scrollSpeed * 0.3; // Adjust the multiplier for smoother effect
+
+    lastScrollY = currentScrollY; // Update the last scroll position
 });
 
 // Start the marquee animation loop

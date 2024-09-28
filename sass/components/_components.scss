@@ -6,6 +6,10 @@
 --------------------------------------------- */
 @import "content/posts-and-pages";
 
+/* Home Page
+--------------------------------------------- */
+@import "content/front-page";
+
 /* Comments
 --------------------------------------------- */
 @import "comments/comments";
@@ -28,4 +32,4 @@
 
 /* Effects
 --------------------------------------------- */
-@import "media/effects";
+@import "widgets/effects";

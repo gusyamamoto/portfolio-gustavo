@@ -138,6 +138,13 @@ add_action( 'widgets_init', 'portfolio_gustavo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function portfolio_gustavo_scripts() {
+	wp_enqueue_style( 
+		'portfolio-gustavo-googlefonts', 
+		'https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap',
+		array(),
+		null // Set null if loading multiple Google Fonts from their CDN
+	);
+
 	wp_enqueue_style( 'portfolio-gustavo-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'portfolio-gustavo-style', 'rtl', 'replace' );
 

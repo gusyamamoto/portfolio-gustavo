@@ -146,6 +146,15 @@ function portfolio_gustavo_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	//Enqueue text slider separator
+	wp_enqueue_script(
+		'text-slider',
+		get_template_directory_uri() . '/js/text-slider.js',
+		array(),
+		'24.09.27',
+		array( 'strategy' => 'defer' )
+	);	
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_gustavo_scripts' );
 

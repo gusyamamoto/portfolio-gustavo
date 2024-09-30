@@ -23,52 +23,11 @@ get_header();
 		<div class="entry-content">
 			<?php
 			the_content();
-			?>
-			<section class="separator-project">
-				<div class="marquee">
-					<div class="marquee__group">
-						<span>projects</span>
-						<span>portfolio</span>
-						<span>projects</span>
-						<span>projects</span>
-						<span>projects</span>
-						<span>projects</span>
-						<span>projects</span>
-						<span>projects</span>
-					</div>
-					<div class="marquee__group" aria-hidden="true">
-						<span>portfolio</span>
-						<span>projects</span>
-						<span>portfolio</span>
-						<span>portfolio</span>
-						<span>portfolio</span>
-						<span>portfolio</span>
-						<span>portfolio</span>
-						<span>portfolio</span>
-					</div>
-				</div>
-			</section>
+			get_template_part('template-parts/content', 'projects');
+			get_template_part('template-parts/content', 'about');
+			?>			
 
-		<section class="projects">
-			<?php
-			$args = array (
-				'post_type' => 'ghyport-projects',
-				'posts_per_page' => -1,
-			);
 
-			$projects_query = new WP_Query($args);
-
-			if ( $projects_query -> have_posts () ) {
-				while ( $projects_query -> have_posts () ) {
-					$projects_query -> the_post();
-
-					the_title();
-					the_post_thumbnail();
-				}
-				wp_reset_postdata();
-			}
-			?>
-		</section>
 		</div><!-- .entry-content -->
 	<?php
 	endwhile; // End of the loop.

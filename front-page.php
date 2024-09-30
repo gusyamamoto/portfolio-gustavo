@@ -50,7 +50,24 @@ get_header();
 			</section>
 
 		<section class="projects">
-			<h2>Portfolio</h2>
+			<?php
+			$args = array (
+				'post_type' => 'ghyport-projects',
+				'posts_per_page' => -1,
+			);
+
+			$projects_query = new WP_Query($args);
+
+			if ( $projects_query -> have_posts () ) {
+				while ( $projects_query -> have_posts () ) {
+					$projects_query -> the_post();
+
+					the_title();
+					the_post_thumbnail();
+				}
+				wp_reset_postdata();
+			}
+			?>
 		</section>
 		</div><!-- .entry-content -->
 	<?php

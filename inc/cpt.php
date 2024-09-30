@@ -44,8 +44,8 @@ function ghyport_register_custom_post_types() {
         'hierarchical'       => false,
         'menu_position'      => 5,
         'menu_icon'          => 'dashicons-desktop',
-        'supports'           => array( 'title' ),
+        'supports'           => array( 'title', 'thumbnail' ),
     );
-    register_post_type( 'ghyport-project', $args );
+    register_post_type( 'ghyport-projects', $args );
 }
 add_action( 'init', 'ghyport_register_custom_post_types' );

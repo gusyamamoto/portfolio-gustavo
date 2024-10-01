@@ -40,14 +40,21 @@
 		<div class="row">
 			<div class="wrap">
 				<div class="left">I develop websites with the visual experience in mind...</div>
+				<div class="right">but they also work seamlessly behind the scenes.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="wrap">
+				<div class="left">Coding might seem technical and rigid...</div>
 				<div class="right">but I find joy in merging design with development.</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">I develop websites with the visual experience in mind...</div>
-				<div class="right">but they also work seamlessly behind the scenes.</div>
+				<div class="left">I build sites with HTML, CSS, and JavaScript...</div>
+				<div class="right">but the heart of my work lies in crafting engaging digital experiences.</div>
 			</div>
 		</div>
 

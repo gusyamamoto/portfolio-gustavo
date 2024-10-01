@@ -29,6 +29,9 @@
 </section>
 
 <section class="contact">
+	<button id="copy-email-button">Copy E-mail</button>
+    <p id="email-notification"></p>
+
 	<h2>Current Time in Vancouver</h2>
 	<p id="vancouver-time"></p>
 	<h2>Current Weather in Vancouver</h2>

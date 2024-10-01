@@ -163,7 +163,7 @@ function portfolio_gustavo_scripts() {
 		array( 'strategy' => 'defer' )
 	);
 	
-	//Enqueue About page (time and weather)
+	//Enqueue About page (time, weather and e-mail button)
 	wp_enqueue_script(
 		'about',
 		get_template_directory_uri() . '/js/about.js',

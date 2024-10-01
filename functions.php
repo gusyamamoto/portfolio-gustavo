@@ -161,6 +161,15 @@ function portfolio_gustavo_scripts() {
 		array(),
 		'24.09.27',
 		array( 'strategy' => 'defer' )
+	);
+	
+	//Enqueue About page (time and weather)
+	wp_enqueue_script(
+		'about',
+		get_template_directory_uri() . '/js/about.js',
+		array(),
+		'30.09.27',
+		true
 	);	
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_gustavo_scripts' );

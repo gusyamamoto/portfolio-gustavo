@@ -25,6 +25,7 @@ get_header();
 			the_content();
 			get_template_part('template-parts/content', 'projects');
 			get_template_part('template-parts/content', 'about');
+			get_template_part('template-parts/content', 'contact');
 			?>			
 
 

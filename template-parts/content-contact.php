@@ -28,7 +28,7 @@
 	</div>
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 	<button id="copy-email-button">Copy E-mail</button>
     <p id="email-notification"></p>
 

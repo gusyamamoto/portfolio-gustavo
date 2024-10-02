@@ -1,10 +1,95 @@
-// .site-main {
-//     height: 300vh;
-// }
+.entry-header {
+    height: 95lvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .entry-title {
-	font-family: $font__primary;
-    font-weight: 200;
-    font-size: 11rem;
-    line-height: 10rem;
+	font-family: $font_righteous;
+    color: $color_text_white;
+    font-weight: 100;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    .orange {
+        color:$color_orange;
+    }
+}
+
+@media screen and (min-width: 26.25em) {
+    .entry-title {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+}
+
+@media screen and (min-width: 31.25rem) {
+    .entry-title {
+        font-size: 5rem;
+        line-height: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 35.625rem) {
+    .entry-title {
+        font-size: 5.5rem;
+        line-height: 5rem;
+    }
+}
+
+@media screen and (min-width: 38.75rem) {
+    .entry-title {
+        font-size: 6rem;
+        line-height: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 43.75rem) {
+    .entry-title {
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .entry-title {
+        font-size: 8.5rem;
+        line-height: 7rem;
+    }
+}
+
+@media screen and (min-width: 59.375rem) {
+    .entry-title {
+        font-size: 9.5rem;
+        line-height: 8rem;
+    }
+}
+
+@media screen and (min-width: 75rem) {
+    .entry-title {
+        font-size: 11rem;
+        line-height: 10rem;
+    }
+}
+
+@media screen and (min-width: 87.5rem) {
+    .entry-title {
+        font-size: 13rem;
+        line-height: 11rem;
+    }
+}
+
+@media screen and (min-width: 93.75rem) {
+    .entry-title {
+        font-size: 15rem;
+        line-height: 13rem;
+    }
+}
+
+@media screen and (min-width: 120rem) {
+    .entry-title {
+        font-size: 18rem;
+        line-height: 15rem;
+    }
 }

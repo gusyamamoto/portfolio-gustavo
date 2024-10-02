@@ -17,7 +17,7 @@ get_header();
 		the_post();
 	?>
 		<header class="entry-header">
-			<h1 class="entry-title">Front-End<br>Web<br>Developer</h1>
+			<h1 class="entry-title">Front<span class="orange">_</span>End<br>Web<br>Developer</h1>
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">

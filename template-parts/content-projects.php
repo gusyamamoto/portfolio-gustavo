@@ -13,22 +13,27 @@
 <section class="separator-project">
 	<div class="marquee">
 		<div class="marquee__group">
-			<span>projects</span>
-			<span>projects</span>
-			<span>projects</span>
-			<span>projects</span>
-			<span></span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+
 		</div>
 		<div class="marquee__group" aria-hidden="true">
-			<span>projects</span>
-			<span>projects</span>
-			<span>projects</span>
-			<span>projects</span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+			<span>PROJECTS</span>
+			<span class="orange">PROJECTS</span>
+
 		</div>
 	</div>
 </section>
 
-<section class="projects">
+<section id="projects" class="projects">
 	<?php
 	$args = array(
 		'post_type' => 'ghyport-projects',
@@ -46,7 +51,7 @@
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail(); ?>
 				</a>
-				<p><a href="<?php the_permalink(); ?>">See project</a></p>
+				<p><a class="arrow" href="<?php the_permalink(); ?>"><span>See project</span></a></p>
 			</article>
 	<?php
 		endwhile;

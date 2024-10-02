@@ -1,7 +1,17 @@
+.site-branding {
+	margin-bottom: .5rem;
+	border-bottom: 1.5px solid $color_text_white;
+	p {
+		a {
+			color: $color_text_white;
+	}
+}
+}
+
 .main-navigation {
 	position: fixed;
     bottom: 150px;
-    right: -110px; 
+    right: -120px; 
 	transform: rotate(90deg);
 
 	ul {

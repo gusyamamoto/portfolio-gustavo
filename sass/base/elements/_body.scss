@@ -5,3 +5,8 @@ html {
 body {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 }
+
+.site-main {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

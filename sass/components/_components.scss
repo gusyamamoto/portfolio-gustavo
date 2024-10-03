@@ -10,9 +10,13 @@
 --------------------------------------------- */
 @import "content/front-page";
 
-/* Projects Page
+/* Projects Section
 --------------------------------------------- */
 @import "content/projects";
+
+/* About Section
+--------------------------------------------- */
+@import "content/about";
 
 /* Comments
 --------------------------------------------- */
@@ -41,3 +45,7 @@
 /* About sign effect
 --------------------------------------------- */
 @import "widgets/about-pillar";
+
+/* Scroll down icon
+--------------------------------------------- */
+@import "widgets/scroll-down";

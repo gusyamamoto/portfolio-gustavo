@@ -1,6 +1,9 @@
 .site-branding {
-	margin-bottom: .5rem;
 	border-bottom: 1.5px solid $color_text_white;
+	.site-title {
+		margin-left: 1rem;
+		font-weight: 600;
+	}
 	p {
 		a {
 			color: $color_text_white;
@@ -13,6 +16,7 @@
     bottom: 150px;
     right: -120px; 
 	transform: rotate(90deg);
+	z-index: 1000;
 
 	ul {
 		list-style: none;

@@ -18,6 +18,7 @@ get_header();
 	?>
 		<header class="entry-header">
 			<h1 class="entry-title">Front<span class="orange">_</span>End<br>Web<br>Developer</h1>
+			<div class="scroll-down"></div>
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">

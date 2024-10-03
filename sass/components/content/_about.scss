@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+}
+
+// 1184px
+@media screen and (min-width: 74rem) {
+.about {
+    display: flex;
+    flex-direction: row;
+}
+}

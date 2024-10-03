@@ -10,20 +10,25 @@
 
 ?>
 
-<section class="separator-contact">
+<section class="separator-project">
 	<div class="marquee">
 		<div class="marquee__group">
-			<span>contact</span>
-			<span>contact</span>
-			<span>contact</span>
-			<span>contact</span>
-			<span></span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+
 		</div>
 		<div class="marquee__group" aria-hidden="true">
-			<span>contact</span>
-			<span>contact</span>
-			<span>contact</span>
-			<span>contact</span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+			<span>CONTACT</span>
+			<span class="orange">CONTACT</span>
+
 		</div>
 	</div>
 </section>

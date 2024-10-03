@@ -19,8 +19,9 @@
   position: relative;
   z-index: 2;
   color: #fff;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  font-family: $font_text;
+  line-height: 2rem;
   text-transform: uppercase;
   font-weight: bold;
   transform-style: preserve-3d;
@@ -80,8 +81,8 @@
 @media screen and (max-width: 74rem) {
   .row {
     width: 60rem;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     margin-left: 5rem;
 
     .left {
@@ -97,8 +98,8 @@
 @media screen and (max-width: 62.5rem) {
   .row {
     width: 50rem;
-    font-size: 1.8rem;
-    line-height: 1.9rem;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
     margin-left: 5rem;
 
     .left {
@@ -114,8 +115,8 @@
 @media screen and (max-width: 55rem) {
   .row {
     width: 45rem;
-    font-size: 1.7rem;
-    line-height: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
 
     .left {
       transform: rotateY(2deg);
@@ -146,9 +147,8 @@
 @media screen and (max-width: 35.625rem) {
   .row {
     width: 25rem;
-    
 }
-
+}
 // 400px
 @media screen and (max-width: 25rem) {
   .row {
@@ -158,5 +158,3 @@
     // margin-left: -2rem;
   } 
 }
-
-

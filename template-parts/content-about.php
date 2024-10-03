@@ -83,19 +83,19 @@
 		if (function_exists('get_field')) {
 
 			if (get_field('about_title_1')) {
-				echo '<h2>' . the_field('about_title_1') . '</h2>';
+				echo '<h2>' . get_field('about_title_1') . '</h2>';
 			}
 			if (get_field('about_text_1')) {
-				echo '<p>' . the_field('about_text_1') . '</p>';
+				the_field('about_text_1');
 			}
 			if (get_field('about_title_2')) {
-				echo '<h2>' . the_field('about_title_2') . '</h2>';
+				echo '<h2>' . get_field('about_title_2') . '</h2>';
 			}
 			if (get_field('about_text_2')) {
-				echo '<p>' . the_field('about_text_2') . '</p>';
+				the_field('about_text_2');
 			}
 			if (get_field('about_title_3')) {
-				echo '<h2>' . the_field('about_title_3') . '</h2>';
+				echo '<h2>' . get_field('about_title_3') . '</h2>';
 			}
 		}
 		?>

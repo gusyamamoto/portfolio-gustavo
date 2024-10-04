@@ -170,7 +170,8 @@ function portfolio_gustavo_scripts() {
 		array(),
 		'30.09.27',
 		true
-	);	
+	);
+	
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_gustavo_scripts' );
 

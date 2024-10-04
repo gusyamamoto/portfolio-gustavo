@@ -16,8 +16,8 @@ get_header();
 	while (have_posts()) :
 		the_post();
 	?>
-		<header class="entry-header">
-			<h1 class="entry-title">front<span class="orange"> _</span>end<br>web<br>developer</h1>
+		<header id="entry-header" class="entry-header">
+			<h1 class="entry-title">front<span class="orange">_</span>end<br>web<br>developer</h1>
 			<div class="scroll-down"></div>
 		</header><!-- .entry-header -->
 

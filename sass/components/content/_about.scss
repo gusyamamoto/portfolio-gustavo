@@ -5,13 +5,25 @@
 
 .about-paragraph {
     color: $color_text_white;
-    
+    display: flex;
+    flex-direction: row;
+}
+
+.about-para-first, .about-para-second {
+    width: 50%;
+    padding: 1rem;
 }
 
 // 1184px
-@media screen and (min-width: 74rem) {
-.about {
-    display: flex;
-    flex-direction: row;
+// @media screen and (min-width: 74rem) {
+// .about {
+//     display: flex;
+//     flex-direction: row;
+// }
+.about-paragraph {
+    flex-direction: column;
+    .about-para-first, .about-para-second {
+        width: 100%;
+    }
 }
 }

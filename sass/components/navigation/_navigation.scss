@@ -2,7 +2,7 @@
 	border-bottom: 1.5px solid $color_text_white;
 	.site-title {
 		margin-left: 1rem;
-		font-weight: 600;
+		font-weight: 100;
 	}
 	p {
 		a {
@@ -39,12 +39,6 @@
 	}
 
 }
-}
-
-footer {
-	.site-info{
-		border-bottom: 2px solid $color_text_white;
-	}
 }
 
 @media screen and (min-width: 37.5em) {

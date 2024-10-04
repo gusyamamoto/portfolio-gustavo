@@ -1,7 +1,7 @@
 #pillar {
   display: block;
-  margin: 6.25rem 1.25rem;
-  width: 50rem;
+  margin: 6.25rem 0;
+  width: 100%;
   transform: translateX(6.25rem);
   perspective: 1900px;
   margin-left: -5rem;
@@ -15,11 +15,11 @@
 }
 
 .row {
-  width: 50rem;
+  width: 100%;
   position: relative;
   z-index: 2;
   color: #fff;
-  font-size: 2rem;
+  font-size: clamp(1rem 2rem 3rem);
   font-family: $font_text;
   line-height: 2rem;
   text-transform: uppercase;
@@ -45,7 +45,7 @@
   }
 
   .left {
-    width: 43rem;
+    width: 45%;
     padding: 15px 10px;
     text-align: right;
 
@@ -66,7 +66,7 @@
   }
 
   .right {
-    width: 43rem;
+    width: 45%;
     padding: 15px 10px;
     text-align: left;
     transform: rotateY(92deg);
@@ -78,83 +78,116 @@
 }
 
 // 1184px
-@media screen and (max-width: 74rem) {
-  .row {
-    width: 60rem;
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    margin-left: 5rem;
+// @media screen and (max-width: 74rem) {
+//   .row {
+//     width: 60rem;
+//     font-size: 1.8rem;
+//     line-height: 1.8rem;
+//     margin-left: 5rem;
 
-    .left {
-      transform: rotateY(2deg);
-    }
-    .right {
-      transform: rotateY(95deg);
-    }
-  }
-}
+//     .left {
+//       transform: rotateY(2deg);
+//     }
+//     .right {
+//       transform: rotateY(95deg);
+//     }
+//   }
+// }
 
-// 1000px
-@media screen and (max-width: 62.5rem) {
-  .row {
-    width: 50rem;
-    font-size: 1.7rem;
-    line-height: 1.7rem;
-    margin-left: 5rem;
+// // 1000px
+// @media screen and (max-width: 62.5rem) {
+//   .row {
+//     width: 50rem;
+//     font-size: 1.7rem;
+//     line-height: 1.7rem;
+//     margin-left: 5rem;
 
-    .left {
-      transform: rotateY(2deg);
-    }
-    .right {
-      transform: rotateY(98deg);
-    }
-  }
-}
+//     .left {
+//       transform: rotateY(2deg);
+//     }
+//     .right {
+//       transform: rotateY(98deg);
+//     }
+//   }
+// }
 
-// 880px
-@media screen and (max-width: 55rem) {
-  .row {
-    width: 45rem;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+// // 880px
+// @media screen and (max-width: 55rem) {
+//   .row {
+//     width: 45rem;
+//     font-size: 1.6rem;
+//     line-height: 1.6rem;
 
-    .left {
-      transform: rotateY(2deg);
-    }
-    .right {
-      transform: rotateY(99deg);
-    }
-  }
-}
+//     .left {
+//       transform: rotateY(2deg);
+//     }
+//     .right {
+//       transform: rotateY(99deg);
+//     }
+//   }
+// }
 
-// 760px
-@media screen and (max-width: 47.5rem) {
-  .row {
-    // margin-left: .5rem;
-  }
-}
+// // 760px
+// @media screen and (max-width: 47.5rem) {
+//   .row {
+//     margin-left: .5rem;
+//   }
+// }
 
-// 696px
-@media screen and (max-width: 43.5rem) {
-  .row {
-    width: 35rem;
-    // font-size: 1.4rem;
-    // line-height: 1.5rem;
-  } 
-}
+// // 696px
+// @media screen and (max-width: 43.5rem) {
+//   .row {
+//     width: 37rem;
+//     font-size: 1.5rem;
+//     line-height: 1.5rem;
+//     margin-left: -1rem;
+//   } 
+// }
 
-// 570px
-@media screen and (max-width: 35.625rem) {
-  .row {
-    width: 25rem;
-}
-}
-// 400px
-@media screen and (max-width: 25rem) {
-  .row {
-    width: 20rem;
-    // font-size: .9rem;
-    // line-height: .9rem;
-    // margin-left: -2rem;
-  } 
-}
+// // 571px
+// @media screen and (max-width: 35.6875rem) {
+//   .row {
+//     width: 30rem;
+//     font-size: 1.4rem;
+//     line-height: 1.4rem;
+// }
+// }
+
+// // 504px
+// @media screen and (max-width: 31.5rem) {
+//   .row {
+//     width: 27rem;
+//     font-size: 1.3rem;
+//     line-height: 1.3rem;
+// }
+// }
+
+// // 444px
+// @media screen and (max-width: 27.75rem) {
+//   .row {
+//     width: 25rem;
+//     font-size: 1.1rem;
+//     line-height: 1.1rem;
+//     margin-left: -1.7rem;
+// }
+// }
+
+// //375px
+// @media screen and (max-width: 23.4375rem) {
+//   .row {
+//     width: 22rem;
+//     font-size: 1rem;
+//     line-height: 1rem;
+//     margin-left: -1.9rem;
+// }
+// }
+
+// // 350px
+// @media screen and (max-width: 21.875rem) {
+//   .row {
+//     width: 20rem;
+//     font-size: 1rem;
+//     line-height: 1rem;
+//     margin-left: -2.5rem;
+//   } 
+// }

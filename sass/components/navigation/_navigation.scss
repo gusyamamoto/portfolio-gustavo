@@ -35,8 +35,14 @@
 
 	a {
 		display: inline;
-		text-decoration: none;
 	}
+	a:hover {
+		text-decoration: line-through 3px $color_orange;
+	}
+	a.clicked {
+		text-decoration: line-through 3px $color_orange;
+	  }
+	  
 
 }
 }

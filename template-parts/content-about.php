@@ -38,42 +38,42 @@
 		<div class="row">
 			<div class="wrap">
 				<div class="left">Based in Vancouver...</div>
-				<div class="right">born in São Paulo.</div>
+				<div class="right">born in São Paulo</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">I develop websites with the visual experience in mind...</div>
-				<div class="right">but they also work seamlessly behind the scenes.</div>
+				<div class="left">Creating with code...</div>
+				<div class="right">and designing with heart</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">Coding might seem technical and rigid...</div>
-				<div class="right">but I find joy in merging design with development.</div>
+				<div class="left">Developer by profession...</div>
+				<div class="right">problem solver by nature</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">I build sites with HTML, CSS, and JavaScript...</div>
-				<div class="right">but the heart of my work lies in crafting engaging digital experiences.</div>
+				<div class="left">Bringing ideas to life...</div>
+				<div class="right">one pixel at a time</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">Moving from Brazil to Canada might seem like a leap...</div>
-				<div class="right">but it is where I found my love for web development and snowboarding.</div>
+				<div class="left">Driven by clean code...</div>
+				<div class="right">fueled by creativity</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="wrap">
-				<div class="left">I graduated from BCIT in Front-End Web Development…</div>
-				<div class="right">but my journey started earlier with a passion for creativity and problem-solving.</div>
+				<div class="left">Focused on user experience...</div>
+				<div class="right">because usability matters</div>
 			</div>
 		</div>
 	</div>

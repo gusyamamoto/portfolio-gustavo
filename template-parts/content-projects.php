@@ -9,35 +9,36 @@
  */
 
 ?>
-
-<section class="separator-project">
-	<div class="marquee">
-		<div class="marquee__group">
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-
-		</div>
-		<div class="marquee__group" aria-hidden="true">
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-			<span>PROJECTS</span>
-			<span class="orange">PROJECTS</span>
-
-		</div>
-	</div>
-</section>
-
 <section id="projects" class="projects">
+
+	<section class="separator-project">
+		<div class="marquee">
+			<div class="marquee__group">
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+
+			</div>
+			<div class="marquee__group" aria-hidden="true">
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="orange">PROJECTS</span>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="project-wrapper">
 	<?php
 	$args = array(
 		'post_type' => 'ghyport-projects',
@@ -62,4 +63,5 @@
 		wp_reset_postdata();
 	endif;
 	?>
+	</section>
 </section>

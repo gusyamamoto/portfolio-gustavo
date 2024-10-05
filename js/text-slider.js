@@ -27,3 +27,26 @@ window.addEventListener('scroll', () => {
 
 // Start the marquee animation loop
 startMarquee();
+
+
+const entryTitle = document.querySelector('.entry-title');
+const fadeStart = 0; // Start fading out at the top of the viewport
+const fadeEnd = 200; // End fading out at 300px down the page (adjust as needed)
+
+window.addEventListener('scroll', function () {
+    const scrollY = window.scrollY;
+
+    // Calculate the opacity based on scroll position
+    if (scrollY >= fadeStart && scrollY <= fadeEnd) {
+        const opacity = 1 - (scrollY - fadeStart) / (fadeEnd - fadeStart);
+        entryTitle.style.opacity = opacity;
+    } 
+    // Fully hidden if beyond fadeEnd
+    else if (scrollY > fadeEnd) {
+        entryTitle.style.opacity = 0;
+    } 
+    // Fully visible if before fadeStart
+    else {
+        entryTitle.style.opacity = 1;
+    }
+});

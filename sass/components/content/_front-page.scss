@@ -3,16 +3,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .entry-title {
+    position: fixed;
 	font-family: $font_hero;
     color: $color_text_white;
     font-weight: 100;
-    font-size: clamp(3rem, 19vw, 18rem);
-    line-height: clamp(4rem, 16vw, 16rem);
+    font-size: clamp(5rem, 13.5vw, 16rem);
+    line-height: clamp(5rem, 14vw, 16rem);
+    opacity: 1;
+    transition: opacity 0.1s ease-out;
     .orange {
         color:$color_orange;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes reappear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .entry-header {
+        height: 88lvh;
     }
 }
 

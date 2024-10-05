@@ -1,7 +1,7 @@
 .marquee {
     display: flex;
     overflow: hidden;
-    height: 8vh;
+    height: 7vh;
     user-select: none;
     gap: 2rem;
     // padding-top: 1rem;
@@ -32,11 +32,4 @@
     font-family: $font_text;
     font-weight: 500;
     padding: 0;
-}
-
-@media only screen and (min-width: 360px) {
-    .marquee__group span {
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
 }

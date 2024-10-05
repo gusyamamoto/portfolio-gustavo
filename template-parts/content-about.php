@@ -19,9 +19,17 @@
 			<span class="orange">ABOUT</span>
 			<span>ABOUT</span>
 			<span class="orange">ABOUT</span>
+			<span>ABOUT</span>
+			<span class="orange">ABOUT</span>
+			<span>ABOUT</span>
+			<span class="orange">ABOUT</span>
 
 		</div>
 		<div class="marquee__group" aria-hidden="true">
+			<span>ABOUT</span>
+			<span class="orange">ABOUT</span>
+			<span>ABOUT</span>
+			<span class="orange">ABOUT</span>
 			<span>ABOUT</span>
 			<span class="orange">ABOUT</span>
 			<span>ABOUT</span>

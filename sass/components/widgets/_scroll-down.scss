@@ -3,22 +3,23 @@ header {
     .scroll-down {
       position: absolute;
       left: 50%;
-      bottom: 0%; /* Adjust as needed */
+      bottom: 0%;
       transform: translateX(-50%);
       width: 22px;
       height: 35px;
-      border: solid 2px #fff;
+      border: solid 2px $color_text_white;
       border-radius: 26px;
+      background-color: $color__background-body;
       
       &:before, &:after {
         content: '';
         position: absolute;
         width: 4px;
         height: 4px;
-        background-color: #fff;
+        background-color: $color_orange;
         border-radius: 100%;
         left: 50%;
-        transform: translateX(-52%);
+        transform: translateX(-51%);
       }
   
       &:before {
@@ -36,22 +37,22 @@ header {
   @keyframes dot1 {
     0% {
       opacity: 1;
-      transform: translateX(-52%) translateY(0);
+      transform: translateX(-51%) translateY(0);
     }
     100% {
       opacity: 0;
-      transform: translateX(-52%) translateY(9px);
+      transform: translateX(-51%) translateY(9px);
     }
   }
   
   @keyframes dot2 {
     0% {
       opacity: 0;
-      transform: translateX(-52%) translateY(0);
+      transform: translateX(-51%) translateY(0);
     }
     100% {
       opacity: 1;
-      transform: translateX(-52%) translateY(9px);
+      transform: translateX(-51%) translateY(9px);
     }
   }
   

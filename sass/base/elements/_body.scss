@@ -2,10 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body, section, article {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 }
 
 .site-main {
-    margin: 2rem 1.5rem 0;
+    margin: 2rem 1.6rem 0;
 }

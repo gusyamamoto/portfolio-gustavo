@@ -1,46 +1,59 @@
 .entry-header {
-    height: 95lvh;
+    height: 94lvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 .entry-title {
     position: fixed;
-	font-family: $font_hero;
-    color: $color_text_white;
+    font-family: $font_hero;
     font-weight: 100;
-    font-size: clamp(5rem, 13.5vw, 16rem);
-    line-height: clamp(5rem, 14vw, 16rem);
-    opacity: 1;
-    transition: opacity 0.1s ease-out;
+    font-size: clamp(3rem, 13.5vw, 16rem);
+    line-height: clamp(4rem, 11vw, 14rem);
+    padding: 0 2rem;
+    z-index: -50;
+    // color: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(
+      to right,
+      rgb(210, 210, 210), /* Light silver */
+      rgb(98, 98, 98), /* Dark gray */
+      $color_text_white, /* White shine */
+      rgb(48, 48, 48),    /* Black */
+      rgb(50, 50, 50),
+      $color_text_white, /* White shine */
+      rgb(98, 98, 98), /* Dark gray */
+      rgb(210, 210, 210), /* Light silver */
+      rgb(50, 50, 50),
+      rgb(48, 48, 48),    /* Black */
+    );
+    background-size: 500%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: sTransition 25s ease-in-out infinite alternate;
+    animation-delay: 1s;
+    text-transform: uppercase;
+    
     .orange {
-        color:$color_orange;
+      color: $color_orange; /* Retains the orange color for the underscore */
     }
-}
-
-@keyframes disappear {
+  }
+  
+  @keyframes sTransition {
     0% {
-        opacity: 1;
+      background-position: 0%;
     }
     100% {
-        opacity: 0;
+      background-position: 100%;
     }
-}
+  }
 
-@keyframes reappear {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 @media screen and (max-width: 62.5em) {
     .entry-header {
-        height: 88lvh;
+        height: 87lvh;
     }
 }
 

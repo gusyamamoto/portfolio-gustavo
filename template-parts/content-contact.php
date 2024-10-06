@@ -11,24 +11,88 @@
 ?>
 <section id="contact" class="contact">
 
-	<section class="separator-project">
+<section class="separator-contact">
 		<div class="marquee">
 			<div class="marquee__group">
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 
 			</div>
 			<div class="marquee__group" aria-hidden="true">
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 				<span>CONTACT</span>
-				<span class="orange">CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
+				<span>CONTACT</span>
+				<span class="sep-color">CONTACT</span>
 
 			</div>
 		</div>

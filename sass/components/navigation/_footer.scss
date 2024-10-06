@@ -3,19 +3,19 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-	margin-right: 1.5rem;
-	margin-left: 1.5rem;
+	// margin-right: 1.5rem;
+	// margin-left: 1.5rem;
     border-top: 2px solid $color_text_white;
     border-bottom: 2px solid $color_text_white;
 	.site-info{
-		padding: 1rem 0;
+		padding: 1rem 1.5rem;
 	}
 }
   
   .scroll-top svg {
     width: 32px;
     height: 32px;
-    margin: .6rem 1rem;
+    margin: .6rem 2rem;
     fill: $color_text_white;
     transition: fill 0.3s, transform 0.3s;
   }

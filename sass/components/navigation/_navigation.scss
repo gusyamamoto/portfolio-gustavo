@@ -18,7 +18,7 @@
     bottom: 150px;
     right: -120px; 
 	transform: rotate(90deg);
-	// z-index: 1000;
+	z-index: 1000;
 	font-size: .85rem;
 	height: 5%;
 
@@ -38,6 +38,8 @@
 
 	a {
 		display: inline;
+		background-color: $color__background-body;
+		z-index: 500;
 	}
 	a:hover {
 		text-decoration: line-through 3px $color_orange;

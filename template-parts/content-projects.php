@@ -15,24 +15,72 @@
 		<div class="marquee">
 			<div class="marquee__group">
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 
 			</div>
 			<div class="marquee__group" aria-hidden="true">
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 				<span>PROJECTS</span>
-				<span class="orange">PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
+				<span>PROJECTS</span>
+				<span class="sep-color">PROJECTS</span>
 
 			</div>
 		</div>

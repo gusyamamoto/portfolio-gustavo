@@ -11,36 +11,27 @@
 ?>
 <section id="about" class="about">
 
-	<section class="separator-project">
-		<div class="marquee">
-			<div class="marquee__group">
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
+<section class="separator-about">
+  <div class="marquee">
+    <div class="marquee__group">
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+    </div>
+    <div class="marquee__group" aria-hidden="true">
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+      <span>ABOUT</span>
+      <span class="sep-color">ABOUT</span>
+    </div>
+  </div>
+</section>
 
-			</div>
-			<div class="marquee__group" aria-hidden="true">
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-				<span>ABOUT</span>
-				<span class="orange">ABOUT</span>
-
-			</div>
-		</div>
-	</section>
 
 	<div id="pillar">
 		<div class="row">

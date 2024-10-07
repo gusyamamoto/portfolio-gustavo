@@ -5,11 +5,31 @@
 
 .about-paragraph {
     color: $color_text_white;
-
 }
 
-.about-para-first, .about-para-second {
-    // width: 50%;
-    padding: 1rem;
+.about-para-first, .about-para-second{
+    padding: 1rem; 
 }
 
+@media screen and (min-width: 43.75em) {
+    .about-paragraph {
+        display: flex;
+        flex-direction: row;
+        .about-para-first, .about-para-second {
+            width: 50%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 62.5em) {
+    .about-paragraph {
+        .about-para-first {
+            width: 65%;
+        }
+        .about-para-second{
+            width: 35%;
+            
+        }
+    }
+}

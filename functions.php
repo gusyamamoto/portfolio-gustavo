@@ -165,11 +165,20 @@ function portfolio_gustavo_scripts() {
 	
 	//Enqueue About page (time, weather and e-mail button)
 	wp_enqueue_script(
-		'about',
-		get_template_directory_uri() . '/js/about.js',
+		'api',
+		get_template_directory_uri() . '/js/api.js',
 		array(),
-		'30.09.27',
+		'24.09.27',
 		true
+	);
+
+	//Enqueue Copy E-mail
+	wp_enqueue_script(
+		'copy-email',
+		get_template_directory_uri() . '/js/copy-email.js',
+		array(),
+		'24.10.07',
+		array( 'strategy' => 'defer' )
 	);
 	
 }

@@ -11,7 +11,7 @@
 ?>
 <section id="contact" class="contact">
 
-<section class="separator-contact">
+	<section class="separator-contact">
 		<div class="marquee">
 			<div class="marquee__group">
 				<span>CONTACT</span>
@@ -98,11 +98,35 @@
 		</div>
 	</section>
 
-	<button id="copy-email-button">Copy E-mail</button>
-	<p id="email-notification"></p>
+	<?php
+	if (function_exists('get_field')) {
+	?>
+		<div class="contact-title">
+			<?php
+			if (get_field('contact_title')) {
+				echo '<h2>' . get_field('contact_title') . '</h2>';
+			}
+			?>
+		</div>
+	<?php
+	}
+	?>
+	<div class="button-wrapper">
+		<button id="copy-email-button">Copy E-mail</button>
+		<!-- <p id="email-notification"></p> -->
 
-	<h2>Current Time in Vancouver</h2>
-	<p id="vancouver-time"></p>
-	<h2>Current Weather in Vancouver</h2>
-	<p id="vancouver-weather"></p>
+		<?php
+		if (function_exists('get_field')) {
+			if (get_field('my_email')) {
+				echo '<p>' . get_field('my_email') . '</p>';
+			}
+		}
+		?>
+	</div>
+	<nav class="social-links">
+		<ul>
+			<li><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872/" target="_blank">LinkedIn</a></li>
+			<li><a href="https://github.com/gusyamamoto" target="_blank">GitHub</a></li>
+		</ul>
+	</nav>
 </section>

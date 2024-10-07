@@ -1,0 +1,54 @@
+.contact-title {    
+    font-family: $font_hero;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 7vw;
+    h2 {
+        margin: 3rem 0 2rem;
+    }
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: .8rem;
+    }
+
+    button {
+        color: $color_text_white;
+        background-color: $color__background-body;
+        border: solid 2px;
+        border-radius: 25px;
+        min-width: 20rem;
+        padding: 1rem 0;
+        font-family: $font_fat;
+        font-size: 1rem;
+    }
+    button:hover {
+        text-decoration: line-through 3px $color_orange;
+        border: solid 2px $color_orange;
+    }
+    
+}
+
+// SOCIAL MENU
+.social-links {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		padding: 0;
+		li {
+			padding: 0 2rem 1rem 0;
+			font-family: $font_hero;
+			font-size: 1.4rem;
+			a:hover {
+				text-decoration: line-through 3px $color_orange;
+			}
+		}
+	}
+}

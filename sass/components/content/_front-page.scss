@@ -17,27 +17,27 @@
     // color: rgba(255, 255, 255, 0.1);
     background: linear-gradient(
       to right,
-      rgb(210, 210, 210), /* Light silver */
-      rgb(98, 98, 98), /* Dark gray */
-      $color_text_white, /* White shine */
-      rgb(48, 48, 48),    /* Black */
+      rgb(210, 210, 210),
+      rgb(98, 98, 98),
+      $color_text_white,
+      rgb(48, 48, 48),
       rgb(50, 50, 50),
-      $color_text_white, /* White shine */
-      rgb(98, 98, 98), /* Dark gray */
-      rgb(210, 210, 210), /* Light silver */
+      $color_text_white,
+      rgb(98, 98, 98),
+      rgb(210, 210, 210),
       rgb(50, 50, 50),
-      rgb(48, 48, 48),    /* Black */
+      rgb(48, 48, 48),
     );
     background-size: 500%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: sTransition 25s ease-in-out infinite alternate;
+    animation: sTransition 18s ease-in-out infinite alternate;
     animation-delay: 1s;
     text-transform: uppercase;
     
     .orange {
-      color: $color_orange; /* Retains the orange color for the underscore */
+      color: $color_orange; 
     }
   }
   

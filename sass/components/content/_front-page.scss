@@ -1,4 +1,4 @@
-.entry-header {
+.entry-header-home {
     height: 94lvh;
     display: flex;
     justify-content: center;
@@ -6,10 +6,9 @@
     padding: 2rem;
 }
 
-.entry-title {
+.entry-title-home {
     position: fixed;
     font-family: $font_hero;
-    font-weight: 100;
     font-size: clamp(3rem, 13.5vw, 16rem);
     line-height: clamp(4rem, 11vw, 14rem);
     padding: 0 2rem;
@@ -52,7 +51,7 @@
 
 
 @media screen and (max-width: 62.5em) {
-    .entry-header {
+    .entry-header-home {
         height: 87lvh;
     }
 }

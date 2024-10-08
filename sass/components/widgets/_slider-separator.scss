@@ -35,3 +35,13 @@
     gap: 0;
 }
 
+.spinning-svg {
+    fill: $color_text_white;
+    stroke: $color_text_white;
+    width: 1rem;
+    transition: transform 0.1s ease; /* Controls how smooth the rotation is */
+}
+
+.separator {
+    text-align: center;
+}

@@ -20,8 +20,116 @@
 				<span class="sep-color">ABOUT</span>
 				<span>ABOUT</span>
 				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
 			</div>
 			<div class="marquee__group" aria-hidden="true">
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
+				<span>ABOUT</span>
+				<span class="sep-color">ABOUT</span>
 				<span>ABOUT</span>
 				<span class="sep-color">ABOUT</span>
 				<span>ABOUT</span>

@@ -46,6 +46,9 @@ function portfolio_gustavo_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 
+	// Cropping to banner image in Project Page
+	add_image_size( 'project-banner', 9999, 600, array( 'center', 'top' ) );
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(

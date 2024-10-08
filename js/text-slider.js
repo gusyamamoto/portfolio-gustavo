@@ -27,3 +27,44 @@ window.addEventListener('scroll', () => {
 
 // Start the marquee animation loop
 startMarquee();
+
+
+
+
+// let lastScrollY = window.scrollY; // Store the last scroll position
+// let rotation = 0; // Keep track of the current rotation
+// let isScrolling = false; // Flag to check if scrolling is happening
+
+// function rotateSVG() {
+//     const svgElement = document.querySelector('.spinning-svg');
+
+//     if (!svgElement) return;
+
+//     // Calculate scroll direction and update the rotation
+//     const currentScrollY = window.scrollY;
+//     const scrollDifference = currentScrollY - lastScrollY;
+
+//     // Adjust rotation based on scroll direction
+//     rotation += scrollDifference * 0.5; // Adjust multiplier for faster/slower rotation
+//     svgElement.style.transform = `rotate(${rotation}deg)`;
+
+//     lastScrollY = currentScrollY;
+
+//     // Set a timeout to stop rotating if the user stops scrolling
+//     if (isScrolling) {
+//         clearTimeout(isScrolling);
+//     }
+//     isScrolling = setTimeout(() => {
+//         svgElement.style.transition = 'transform 0.3s ease-out';
+//         isScrolling = false;
+//     }, 100);
+// }
+
+// // Add event listener for scrolling
+// window.addEventListener('scroll', () => {
+//     const svgElement = document.querySelector('.spinning-svg');
+//     if (svgElement) {
+//         svgElement.style.transition = 'transform 0.1s ease'; // Reset transition for smooth rotation while scrolling
+//     }
+//     rotateSVG();
+// });

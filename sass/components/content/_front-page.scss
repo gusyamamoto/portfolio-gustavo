@@ -39,15 +39,33 @@
       color: $color_orange; 
     }
   }
-  
-  @keyframes sTransition {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 100%;
-    }
+
+@keyframes sTransition {
+  0% {
+    background-position: 0%;
   }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Hide the content before animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeInEffect 7s forwards;
+}
+
+/* Define the fade-in keyframe animation */
+@keyframes fadeInEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  
 
 
 @media screen and (max-width: 62.5em) {

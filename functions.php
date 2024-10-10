@@ -143,7 +143,7 @@ add_action( 'widgets_init', 'portfolio_gustavo_widgets_init' );
 function portfolio_gustavo_scripts() {
 	wp_enqueue_style( 
 		'portfolio-gustavo-googlefonts', 
-		'https://fonts.googleapis.com/css2?family=Krona+One&family=Numans&family=Poiret+One&display=swap',
+		'https://fonts.googleapis.com/css2?family=Krona+One&family=Numans&family=Allan&family=Poiret+One&family=Trochut:ital,wght@0,400;0,700;1,400&display=swap',
 		array(),
 		null // Set null if loading multiple Google Fonts from their CDN
 	);

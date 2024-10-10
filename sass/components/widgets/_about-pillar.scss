@@ -1,10 +1,11 @@
 #pillar {
   display: block;
-  margin: 6.25rem 0;
+  padding: 6.25rem 0;
   width: 100%;
   transform: translateX(6.25rem);
-  perspective: 1900px;
+  perspective: 2000px;
   margin-left: -5rem;
+  background-color: $color__background-body;
 }
 
 .wrap {
@@ -22,7 +23,7 @@
   // z-index: 2;
   color: $color_text_white;
   font-size: 2.8rem;
-  font-family: $font_fat;
+  font-family: $font_text;
   line-height: 4rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -71,10 +72,13 @@
     width: 50%;
     padding: 15px 10px;
     text-align: left;
-    transform: rotateY(94deg);
+    transform: rotateY(92deg);
     transform-origin: left center;
     transform-style: preserve-3d;
     backface-visibility: hidden;
+    font-family: $font_comp2;
+    font-weight: 200;
+    
   }
 
 }

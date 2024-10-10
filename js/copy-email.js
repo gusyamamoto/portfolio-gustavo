@@ -4,19 +4,17 @@ function copyEmail() {
         .then(() => {
             const button = document.getElementById('copy-email-button');
             button.textContent = 'Copied!';
-            // Reset the button text after 2 seconds
+            button.classList.add('copied'); // Add class to change font
+
+            // Reset the button text and font after 4 seconds
             setTimeout(() => {
                 button.textContent = 'Copy E-mail';
+                button.classList.remove('copied'); // Remove class to revert font
             }, 4000);
         })
         .catch(err => {
             console.error('Could not copy email: ', err);
         });
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    setInterval(updateVancouverTime, 1000);
-    getVancouverWeather();
-});
 
 document.getElementById('copy-email-button').addEventListener('click', copyEmail);

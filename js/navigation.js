@@ -122,8 +122,8 @@ function highlightCurrentSection() {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
 
-    // Check if the section is currently in the viewport
-    if (scrollY >= sectionTop - sectionHeight / 3 && scrollY < sectionTop + sectionHeight) {
+    // Only change the highlight if the section is fully reached (at the top of the viewport)
+    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
       currentSection = section.getAttribute("id");
     }
   });
@@ -139,3 +139,4 @@ function highlightCurrentSection() {
 
 // Add event listener to track scroll position
 window.addEventListener("scroll", highlightCurrentSection);
+

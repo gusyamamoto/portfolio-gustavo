@@ -14,6 +14,15 @@
     width: 100%;
 }
 
+.project-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    img {
+        margin-bottom: 2rem;
+    }
+}
+
 .project-details {
     a{
         font-size: 1.5rem;
@@ -24,6 +33,21 @@
 		text-decoration: line-through 3px $color_orange;
 	}
 
+}
+
+.project-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    h2 {
+        font-family: $font_hero;
+    }
+}
+
+.font-comp {
+    font-family: $font_comp2;
+    font-size: 1.6rem;
+    font-weight: 100;
 }
 
 @media screen and (min-width: 62.5rem) {  

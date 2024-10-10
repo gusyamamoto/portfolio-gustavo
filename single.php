@@ -42,16 +42,16 @@ get_header();
 
             <div class="project-content">
                 <?php the_content(); ?>
-
-                <!-- If you are using Advanced Custom Fields or similar for project details -->
-                <?php
-                $images = get_field('project_gallery'); // This will return an array of images.
-                if ($images) {
-                    foreach ($images as $image) {
-                        echo '<img src="' . esc_url($image['url']) . '" alt="' . esc_attr($image['alt']) . '">';
+                <div class="project-gallery">
+                    <?php
+                    $images = get_field('project_gallery');
+                    if ($images) {
+                        foreach ($images as $image) {
+                            echo '<img src="' . esc_url($image['url']) . '" alt="' . esc_attr($image['alt']) . '">';
+                        }
                     }
-                }
-                ?>
+                    ?>
+                </div>
 
                 <?php if (function_exists('the_field')) : ?>
                     <div class="project-details">
@@ -73,7 +73,7 @@ get_header();
 
             <?php if ($previous_post) : ?>
                 <div class="previous-project">
-                    <h2>Previous Project</h2>
+                    <h2>Previous <span class="font-comp">Project</span></h2>
                     <a href="<?php echo get_permalink($previous_post->ID); ?>">
                         <?php echo get_the_title($previous_post->ID); ?>
                     </a>
@@ -82,7 +82,7 @@ get_header();
 
             <?php if ($next_post) : ?>
                 <div class="next-project">
-                    <h2>Next Project</h2>
+                    <h2>Next <span class="font-comp">Project</span></h2>
                     <a href="<?php echo get_permalink($next_post->ID); ?>">
                         <?php echo get_the_title($next_post->ID); ?>
                     </a>

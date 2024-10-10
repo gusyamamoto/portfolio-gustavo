@@ -1,10 +1,17 @@
+#contact {
+    // height: 100vh;
+}
+
 .contact-title {    
     font-family: $font_hero;
     font-weight: lighter;
     text-align: center;
     font-size: 7vw;
     h2 {
-        margin: 3rem 0 2rem;
+        // margin: 6rem 0 8rem;
+    }
+    .font-comp {
+        font-size: 11vw;
     }
 }
 
@@ -13,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // margin-bottom: 10rem;
     p {
         font-size: .8rem;
     }
@@ -24,15 +32,19 @@
         border-radius: 25px;
         min-width: 20rem;
         padding: 1rem 0;
-        font-family: $font_fat;
+        font-family: $font_text;
         font-size: 1rem;
     }
     button:hover {
-        text-decoration: line-through 3px $color_orange;
-        border: solid 2px $color_orange;
+        
     }
     
 }
+
+// #copy-email-button.copied {
+//     font-family: $font_comp2;
+//     font-size: 1.5rem;
+// }
 
 // SOCIAL MENU
 .social-links {

@@ -51,7 +51,7 @@
 		z-index: 500;
 	}
 	a:hover {
-		text-decoration: line-through 3px $color_orange;
+		font-weight: bolder;
 	}
 	a.clicked {
 		text-decoration: line-through 3px $color_orange;

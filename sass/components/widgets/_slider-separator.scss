@@ -36,10 +36,10 @@
 // }
 
 .spinning-svg {
-    fill: $color_text_white;
-    stroke: $color_text_white;
-    width: 1rem;
-    transition: transform 0.1s ease; /* Controls how smooth the rotation is */
+    fill: $color_orange;
+    stroke: $color_orange;
+    width: .8rem;
+    // transition: transform 0.1s ease; /* Controls how smooth the rotation is */
 }
 
 section.separator {
@@ -47,11 +47,16 @@ section.separator {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    h2 {
-        margin: 10rem 6rem;
-    }
-}
-
-.separator-project {
     border-top: 1px solid $color_text_white;
+    padding-top: 6rem;
+    h2 {
+        font-size: 5rem;
+        font-weight: 400;
+        padding: 0 2rem;
+        text-align: center;
+        line-height: 3rem;
+        .font-comp {
+            font-size: 5.4rem;
+        }
+    }
 }

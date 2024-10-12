@@ -13,17 +13,23 @@
     line-height: clamp(4rem, 11vw, 14rem);
     padding: 0 2rem;
     z-index: -50;
+    text-shadow: 
+    1px 1px 0 #000,
+    2px 2px 0 #000;
+    // 3px 3px 0 $color_text_white;
+    // 4px 4px 0 #000;
+    // 5px 5px 0 #000,
     // color: rgba(255, 255, 255, 0.1);
     background: linear-gradient(
       to right,
-      rgb(210, 210, 210),
+      rgb(255, 255, 255),
       rgb(98, 98, 98),
       $color_text_white,
-      rgb(48, 48, 48),
+      rgb(35, 35, 35),
       rgb(50, 50, 50),
       $color_text_white,
       rgb(98, 98, 98),
-      rgb(210, 210, 210),
+      rgb(255, 255, 255),
       rgb(50, 50, 50),
       rgb(48, 48, 48),
     );
@@ -31,8 +37,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: sTransition 18s ease-in-out infinite alternate;
-    animation-delay: 1s;
+    animation: sTransition 8s ease-in-out infinite alternate;
+    animation-delay: .5s;
     text-transform: uppercase;
     
     .orange {
@@ -52,7 +58,7 @@
 /* Hide the content before animation */
 .fade-in {
   opacity: 0;
-  animation: fadeInEffect 7s forwards;
+  animation: fadeInEffect 3s forwards;
 }
 
 /* Define the fade-in keyframe animation */
@@ -64,9 +70,6 @@
     opacity: 1;
   }
 }
-
-  
-
 
 @media screen and (max-width: 62.5em) {
     .entry-header-home {

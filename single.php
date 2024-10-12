@@ -24,9 +24,11 @@ get_header();
             <?php if (function_exists('the_field')) : ?>
                 <div class="project-intro">
                     <div class="intro-para">
+                        <h3>Introduction</h3>
                         <p><?php the_field('project_introduction'); ?></p>
                     </div>
                     <div class="intro-goals">
+                        <h3>Goals</h3>
                         <p><?php the_field('project_goals'); ?></p>
                     </div>
                 </div>

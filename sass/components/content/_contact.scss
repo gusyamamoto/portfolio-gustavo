@@ -1,17 +1,33 @@
 #contact {
-    // height: 100vh;
+    height: 105vh;
+    border-top: 1px solid $color_text_white;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-title {    
     font-family: $font_hero;
     font-weight: lighter;
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     h2 {
-        // margin: 6rem 0 8rem;
+        margin: 0 2rem;
     }
     .font-comp {
-        font-size: 11vw;
+        font-size: 9vw;
     }
 }
 
@@ -30,25 +46,23 @@
         background-color: $color__background-body;
         border: solid 2px;
         border-radius: 25px;
-        min-width: 20rem;
+        min-width: 15rem;
         padding: 1rem 0;
         font-family: $font_text;
         font-size: 1rem;
-    }
-    button:hover {
-        
-    }
-    
+    }   
 }
 
-// #copy-email-button.copied {
-//     font-family: $font_comp2;
-//     font-size: 1.5rem;
-// }
+#copy-email-button.copied {
+    color: $color__background-body;
+    background-color: $color_orange;
+}
 
 // SOCIAL MENU
 .social-links {
-	ul {
+	
+    margin-top: 3rem;
+    ul {
 		list-style: none;
 		display: flex;
 		flex-direction: row;

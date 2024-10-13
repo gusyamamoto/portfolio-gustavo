@@ -1,5 +1,5 @@
 .entry-header-home {
-    height: 94lvh;
+    height: 95lvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,9 @@
     padding: 0 2rem;
     z-index: -50;
     text-shadow: 
-    1px 1px 0 #000,
-    2px 2px 0 #000;
-    // 3px 3px 0 $color_text_white;
+    1px 1px 0 transparent,
+    2px 2px 0 #000,
+    3px 3px 0 #000;
     // 4px 4px 0 #000;
     // 5px 5px 0 #000,
     // color: rgba(255, 255, 255, 0.1);
@@ -26,18 +26,18 @@
       rgb(98, 98, 98),
       $color_text_white,
       rgb(35, 35, 35),
-      rgb(50, 50, 50),
+      rgb(22, 22, 22),
       $color_text_white,
       rgb(98, 98, 98),
       rgb(255, 255, 255),
       rgb(50, 50, 50),
-      rgb(48, 48, 48),
+      rgb(29, 29, 29),
     );
     background-size: 500%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: sTransition 8s ease-in-out infinite alternate;
+    animation: sTransition 9s ease-in-out infinite alternate;
     animation-delay: .5s;
     text-transform: uppercase;
     
@@ -58,7 +58,7 @@
 /* Hide the content before animation */
 .fade-in {
   opacity: 0;
-  animation: fadeInEffect 3s forwards;
+  animation: fadeInEffect 5s forwards;
 }
 
 /* Define the fade-in keyframe animation */

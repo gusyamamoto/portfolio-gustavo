@@ -1,5 +1,5 @@
 #contact {
-    height: 105vh;
+    height: 100vh;
     border-top: 1px solid $color_text_white;
 }
 
@@ -8,13 +8,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8rem;
+    margin: 5rem 0 8rem;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -43,38 +43,69 @@
 
     button {
         color: $color_text_white;
-        background-color: $color__background-body;
-        border: solid 2px;
+        background-color: transparent;
+        // border: solid 2px;
         border-radius: 25px;
         min-width: 15rem;
-        padding: 1rem 0;
+        // padding: 5rem ;
         font-family: $font_text;
         font-size: 1rem;
+        font-weight: 600;
+        border: 2px solid;
+        padding: 1em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      
+    }
+    button:active {
+        box-shadow: 0px 0px 0px 0px;
+        top: 5px;
+        left: 5px;
+      
     }   
 }
 
 #copy-email-button.copied {
-    color: $color__background-body;
-    background-color: $color_orange;
+    // color: $color__background-body;
+    // background-color: $color_orange;
+}
+
+.scroll-top {
+    align-self: flex-end;
+}
+
+.scroll-top-project {
+    text-align: right;
+    padding-bottom: 1.1rem;
 }
 
 // SOCIAL MENU
 .social-links {
 	
-    margin-top: 3rem;
+    // margin-top: -4rem;
     ul {
 		list-style: none;
 		display: flex;
 		flex-direction: row;
 		margin: 0;
 		padding: 0;
+        gap: 3rem;
 		li {
-			padding: 0 2rem 1rem 0;
 			font-family: $font_hero;
 			font-size: 1.4rem;
+            font-weight: 600;
 			a:hover {
 				text-decoration: line-through 3px $color_orange;
 			}
 		}
 	}
 }
+
+// @media screen and (min-width: 62.5em) {
+//     #contact {
+//         height: 90vh;
+//     }
+// }

@@ -4,11 +4,12 @@
 		left: 0;
 		width: 100%;
 	border-bottom: 1.5px solid $color_text_white;
-	background-color: $color__background-body;
+	background-color: $color__background-nav;
 	// background: transparent;
     // mix-blend-mode: difference;
 	font-size: .8rem;
 	z-index: 200;
+	
 	.site-title {
 		margin-left: 2.5rem;
 		font-weight: 100;
@@ -47,7 +48,7 @@
 
 	a {
 		display: inline;
-		background-color: $color__background-body;
+		background-color: transparent;
 		z-index: 500;
 	}
 	a:hover {

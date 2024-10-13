@@ -48,6 +48,9 @@ function portfolio_gustavo_setup() {
 
 	// Cropping to banner image in Project Page
 	add_image_size( 'project-banner', 9999, 500, array( 'center', 'top' ) );
+	
+	// Cropping to small thumbnail in Next/Previous link
+	add_image_size( 'project-small-thumb', 320, 9999);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(

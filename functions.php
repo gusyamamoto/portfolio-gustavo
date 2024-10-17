@@ -186,6 +186,15 @@ function portfolio_gustavo_scripts() {
 		'24.10.07',
 		array( 'strategy' => 'defer' )
 	);
+
+	//Enqueue Loading Page
+	wp_enqueue_script(
+		'portfolio-gustavo-loading',
+		get_template_directory_uri() . '/js/loading.js',
+		array(),
+		'24.10.16',
+		null
+	);
 	
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_gustavo_scripts' );

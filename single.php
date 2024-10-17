@@ -61,7 +61,7 @@ get_header();
                         <?php
                         $project_image_1 = get_field('project_image_1');
                         if ($project_image_1) : ?>
-                            <img src="<?php echo esc_url($project_image_1['url']); ?>" alt="<?php echo esc_attr($project_image_1['alt']); ?>">
+                            <img class="project-img-1" src="<?php echo esc_url($project_image_1['url']); ?>" alt="<?php echo esc_attr($project_image_1['alt']); ?>">
                         <?php endif;
 
                         $project_image_2 = get_field('project_image_2');
@@ -112,9 +112,9 @@ get_header();
             }
             if ($next_post) : ?>
                 <div class="next-project">
-                    <h2>Next <span class="font-comp">Project</span></h2>
+                    <h2>Next Project</h2>
                     <a href="<?php echo get_permalink($next_post->ID); ?>">
-                    <?php echo get_the_post_thumbnail($next_post->ID, 'project-small-thumb'); ?>
+                        <?php echo get_the_post_thumbnail($next_post->ID, 'project-small-thumb'); ?>
                         <?php echo get_the_title($next_post->ID); ?>
                     </a>
                 </div>
@@ -123,14 +123,6 @@ get_header();
 
     endwhile; // End of the loop.
     ?>
-    <div class="scroll-top scroll-top-project">
-        <a href="#page">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z" />
-            </svg>
-            <style></style>
-        </a>
-    </div>
 
 </main><!-- #main -->
 

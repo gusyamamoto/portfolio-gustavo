@@ -1,0 +1,19 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    h1 {
+        font-size: 3rem;
+        margin-top: 8rem;
+    }
+}
+
+.logo-404 {
+    font-family: $font_aktura;
+    font-size: 8rem;
+    margin: 0;
+}
+.logo-404:hover {
+    color: $color_orange;
+}

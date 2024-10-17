@@ -10,6 +10,9 @@
 
 get_header();
 ?>
+<div id="loading">
+	<p id="loading-logo">G</p>
+</div>
 <main id="primary" class="site-main">
 
 	<?php
@@ -22,12 +25,13 @@ get_header();
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
+
 			<?php
 			the_content();
 			get_template_part('template-parts/content', 'projects');
 			get_template_part('template-parts/content', 'about');
 			get_template_part('template-parts/content', 'contact');
-			?>			
+			?>
 
 
 		</div><!-- .entry-content -->

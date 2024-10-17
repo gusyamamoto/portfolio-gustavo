@@ -25,11 +25,14 @@
 
 @media screen and (min-width: 62.5em) {
     .about-paragraph {
+        max-width: 75rem;
+        margin: 0 auto;
+        gap: 3rem;
         .about-para-first {
-            width: 65%;
+            width: 60%;
         }
         .about-para-second{
-            width: 35%;
+            width: 40%;
             
         }
     }

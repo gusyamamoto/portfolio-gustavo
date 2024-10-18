@@ -101,7 +101,7 @@
 
         li {
             font-family: $font_hero;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: 600;
 
             a {
@@ -112,6 +112,7 @@
 
             a:hover {
                 text-decoration: underline 2px $color_orange;
+                @include shadow-link;
             }
         }
     }

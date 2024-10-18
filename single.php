@@ -44,47 +44,37 @@ get_header();
 
             <div class="project-content">
                 <?php the_content(); ?>
-                <div class="project-gallery">
-                    <?php
-                    $images = get_field('project_gallery');
-                    if ($images) {
-                        foreach ($images as $image) {
-                            echo '<img src="' . esc_url($image['url']) . '" alt="' . esc_attr($image['alt']) . '">';
-                        }
-                    }
-                    ?>
-                </div>
 
                 <?php if (function_exists('the_field')) : ?>
 
                     <div class="project-images">
                         <?php
                         $project_image_1 = get_field('project_image_1');
-                        if ($project_image_1) : ?>
-                            <img class="project-img-1" src="<?php echo esc_url($project_image_1['url']); ?>" alt="<?php echo esc_attr($project_image_1['alt']); ?>">
-                        <?php endif;
+                        if ($project_image_1) :
+                            echo wp_get_attachment_image( $project_image_1, 'full', false, array( 'class' => 'project-img-1' ) );
+                        endif;
 
                         $project_image_2 = get_field('project_image_2');
-                        if ($project_image_2) : ?>
-                            <img src="<?php echo esc_url($project_image_2['url']); ?>" alt="<?php echo esc_attr($project_image_2['alt']); ?>">
-                        <?php endif;
+                        if ($project_image_2) :
+                            echo wp_get_attachment_image( $project_image_2, 'full', false );
+                        endif;
 
                         $project_image_3 = get_field('project_image_3');
-                        if ($project_image_3) : ?>
-                            <img src="<?php echo esc_url($project_image_3['url']); ?>" alt="<?php echo esc_attr($project_image_3['alt']); ?>">
-                        <?php endif; ?>
+                        if ($project_image_3) :
+                            echo wp_get_attachment_image( $project_image_3, 'full', false );
+                        endif; ?>
 
                         <div class="project-mobile-img-wrapper">
                             <?php
                             $project_image_4 = get_field('project_image_4');
-                            if ($project_image_4) : ?>
-                                <img class="project-mobile-img" src="<?php echo esc_url($project_image_4['url']); ?>" alt="<?php echo esc_attr($project_image_4['alt']); ?>">
-                            <?php endif;
+                            if ($project_image_4) :
+                                echo wp_get_attachment_image( $project_image_4, 'full', false, array( 'class' => 'project-mobile-img' ) );
+                            endif;
 
                             $project_image_5 = get_field('project_image_5');
-                            if ($project_image_5) : ?>
-                                <img class="project-mobile-img" src="<?php echo esc_url($project_image_5['url']); ?>" alt="<?php echo esc_attr($project_image_5['alt']); ?>">
-                            <?php endif; ?>
+                            if ($project_image_5) :
+                                echo wp_get_attachment_image( $project_image_5, 'full', false, array( 'class' => 'project-mobile-img' ) );
+                            endif; ?>
                         </div>
                     </div>
 
@@ -115,7 +105,7 @@ get_header();
                     <h2>Next Project</h2>
                     <a href="<?php echo get_permalink($next_post->ID); ?>">
                         <?php echo get_the_post_thumbnail($next_post->ID, 'project-small-thumb'); ?>
-                        <?php echo get_the_title($next_post->ID); ?>
+                        <p><?php echo get_the_title($next_post->ID); ?></p>
                     </a>
                 </div>
             <?php endif; ?>

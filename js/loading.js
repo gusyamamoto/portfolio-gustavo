@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         loadingScreen.style.display = "none"; // Hide the loading screen after fade-out
         mainContent.style.display = "block"; // Show main content
-    }, 1500); // Adjusted to 2 seconds to match the CSS transition time
+    }, 1800); // Adjusted to 2 seconds to match the CSS transition time
 });

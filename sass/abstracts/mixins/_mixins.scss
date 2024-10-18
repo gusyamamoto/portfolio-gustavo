@@ -7,5 +7,12 @@
 
 // Column width with margin
 @mixin column-width($numberColumns: 3) {
-	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+	width: map-get($columns, $numberColumns) - (($columns__margin * ($numberColumns - 1)) / $numberColumns );
+}
+
+@mixin shadow-link {
+	text-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 10px 60px -5px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 10px 60px -5px rgba(0, 0, 0, 0.75);
+	transition: all 0.4s ease 0s;
 }

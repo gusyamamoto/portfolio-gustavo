@@ -3,10 +3,10 @@
     font-size: 6rem;
     text-align: center;
     padding: 5rem;
-    text-shadow: 
-    1px 1px 0 #000,
-    2px 2px 0 #000,
-    3px 3px 0 #000;
+    text-shadow:
+        1px 1px 0 #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000;
 }
 
 .project-thumbnail {
@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
+
     img {
         margin-bottom: 2rem;
     }
@@ -30,6 +31,7 @@
 .project-images {
     margin: 0 auto;
     max-width: 60rem;
+
     img {
         border: 1px solid $color_text_white;
         margin-top: 4rem;
@@ -44,6 +46,7 @@
     gap: 6rem;
     margin: 0 auto;
     max-width: 50rem;
+
     img {
         max-width: 20rem;
     }
@@ -51,15 +54,22 @@
 
 .project-links {
     margin-top: 3rem;
-     // text-align: center;
-    a{
+
+    // text-align: center;
+    a {
         font-size: 1.5rem;
         font-family: $font_hero;
         padding-right: 2rem;
+        text-shadow:
+        1px 1px 0 #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000;
     }
-	a:hover {
-		text-decoration: underline 2px $color_orange;
-	}
+
+    a:hover {
+        text-decoration: underline 2px $color_orange;
+        @include shadow-link;
+    }
 
 }
 
@@ -70,19 +80,20 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 8rem 1fr;
+
     h2 {
         font-family: $font_hero;
-        font-size: 2rem;
-        text-align: start;
+        font-size: 3rem;
         font-weight: bolder;
         text-align: center;
         padding-bottom: 5rem;
         grid-column: 2;
         text-shadow:
-        1px 1px 0 #000,
-        2px 2px 0 #000,
-        3px 3px 0 #000;
+            1px 1px 0 #000,
+            2px 2px 0 #000,
+            3px 3px 0 #000;
     }
+
     a {
         display: flex;
         flex-direction: column;
@@ -90,28 +101,25 @@
         font-size: 2rem;
         grid-column: 2;
         grid-row: 2;
+
+        p {
+            margin-top: 0;
+            font-size: 2rem;
+        }
     }
+
     a:hover {
-        font-weight: bold;
-        img {
-            border: 2px solid $color_orange;
-        }
+        font-weight: bolder;
     }
-        img {
-            margin: 1rem 0 0;
-            border: 2px solid black;
-            border-radius: 8px;
-        }
+
+    img {
+        margin: 1rem 0 0;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
 }
 
-
-// .font-comp {
-//     // font-family: $font_dirtyline;
-//     font-size: 4.2rem;
-//     font-weight: 100;
-// }
-
-@media screen and (min-width: 62.5em) {  
+@media screen and (min-width: 62.5em) {
     .project-intro {
         display: flex;
         flex-direction: row;
@@ -119,26 +127,25 @@
         gap: 2rem;
         margin: 0 auto;
     }
-    
-    .intro-para, 
+
+    .intro-para,
     .intro-goals {
         width: 100%;
         margin: 0 auto;
     }
 
-    .project-img-1 {
-
-    }
+    .project-img-1 {}
 }
 
 @media screen and (max-width: 57.5em) {
     .project-mobile-img-wrapper {
-       flex-direction: column;
-       align-items: center;
-       gap: 0;
-       img {
-        max-width: 17rem;
-       }
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+
+        img {
+            max-width: 17rem;
+        }
     }
 }
 

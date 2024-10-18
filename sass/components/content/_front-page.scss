@@ -77,37 +77,21 @@
   color: $color_text_white;
   opacity: 1;
   // transition: opacity 2s ease-out
+  animation: fadeOut 2s forwards linear;
 }
 
-#loading.fade-out {
-  opacity: 0;
-  // transition: opacity 2s ease-out;
-}
-
-
-// #main-content {
-//   display: none; /* Ensure main content is hidden initially */
-// }
-
-// /* Hide the content before animation */
-// .fade-in {
+// .fade-out {
 //   opacity: 0;
-//   animation: fadeInEffect 5s forwards;
+  // transition: opacity 2s ease-out;
 // }
 
-/* Define the fade-in keyframe animation */
-// @keyframes fadeInEffect {
-//   0% {
-//     opacity: 0;
-//   }
-//   100% {
-//     opacity: 1;
-//   }
-// }
+@keyframes fadeOut {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
 
-// @media screen and (max-width: 62.5em) {
-//     .entry-header-home {
-//         height: 88lvh;
-//     }
-// }
 

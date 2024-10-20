@@ -33,7 +33,7 @@
 	right: -125px;
 	transform: rotate(90deg);
 	z-index: 1000;
-	font-size: .85rem;
+	font-size: 13.6px;
 	height: 5%;
 	// background: transparent;
 	// mix-blend-mode: difference;
@@ -78,13 +78,6 @@
 }
 
 @media screen and (min-width: 62.5em) {
-	// .site-branding {
-	// 	position: fixed;
-	// 	top: 0;
-	// 	left: 0;
-	// 	width: 100%;
-	// }
-
 	.main-navigation {
 		top: 1.1rem;
 		right: 1rem;
@@ -95,9 +88,5 @@
 		li {
 			padding-right: 2rem;
 		}
-	}
-
-	.main-navigation ul {
-		// display: flex;
 	}
 }

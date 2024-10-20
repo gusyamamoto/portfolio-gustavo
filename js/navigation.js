@@ -41,3 +41,19 @@ function highlightCurrentSection() {
 // Add event listener to track scroll position
 window.addEventListener("scroll", highlightCurrentSection);
 
+
+document.addEventListener("scroll", function() {
+  // Get the scroll-to-top arrow
+  const scrollToTopArrow = document.getElementById("scrollToTop");
+
+  // Calculate 80% of the page height
+  const scrollThreshold = document.documentElement.scrollHeight * 0.1;
+
+  // Show or hide the arrow based on scroll position
+  if (window.scrollY > scrollThreshold) {
+      scrollToTopArrow.style.display = "block";  // Show the arrow
+  } else {
+      scrollToTopArrow.style.display = "none";   // Hide the arrow
+  }
+});
+

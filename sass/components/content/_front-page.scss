@@ -1,5 +1,5 @@
 .entry-header-home {
-    height: 88lvh;
+    height: 88dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,6 @@
   align-items: center;
   z-index: 99999;
   opacity: 1;
-  // transition: opacity 2s ease-out;
 }
 
 #loading-logo {
@@ -76,14 +75,8 @@
   font-family: $font_aktura;
   color: $color_text_white;
   opacity: 1;
-  // transition: opacity 2s ease-out
   animation: fadeOut 2s forwards linear;
 }
-
-// .fade-out {
-//   opacity: 0;
-  // transition: opacity 2s ease-out;
-// }
 
 @keyframes fadeOut {
   0% {

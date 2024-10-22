@@ -199,6 +199,20 @@ function portfolio_gustavo_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_gustavo_scripts' );
 
+// Function to call the svg logos
+function get_svg_icon($svg_name) {
+    $svg_path = get_template_directory() . '/assets/icons/' . $svg_name . '.svg';
+    if (file_exists($svg_path)) {
+        $svg = file_get_contents($svg_path);
+        $svg = preg_replace('/<svg/', '<svg class="svg-icon"', $svg, 1);
+
+        return $svg;
+    } else {
+        return '<!-- SVG not found: ' . $svg_name . ' -->';
+    }
+}
+
+
 /**
  * Implement the Custom Header feature.
  */

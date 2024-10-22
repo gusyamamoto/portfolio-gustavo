@@ -34,9 +34,9 @@ get_header();
 			?>
 
 
-		</div><!-- .entry-content -->
+		</div>
 	<?php
-	endwhile; // End of the loop.
+	endwhile;
 	?>
 
 </main><!-- #main -->

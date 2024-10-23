@@ -1,4 +1,3 @@
-
 // Select all the section elements by their IDs
 const sections = document.querySelectorAll("#projects, #about, #contact");
 
@@ -15,6 +14,9 @@ function highlightCurrentSection() {
     navLinks.forEach(link => {
       link.classList.remove("clicked");
     });
+
+    // Reset the URL to remove hash
+    history.replaceState(null, null, window.location.pathname);
     return; // Exit the function as we're at the top of the page
   }
 
@@ -34,12 +36,17 @@ function highlightCurrentSection() {
     link.classList.remove("clicked");
     if (currentSection && link.getAttribute("href").includes(currentSection)) {
       link.classList.add("clicked");
+
+      // Update the URL hash without jumping to it
+      history.replaceState(null, null, `#${currentSection}`);
     }
   });
 }
 
-// Add event listener to track scroll position
+// Add scroll event listener
 window.addEventListener("scroll", highlightCurrentSection);
+
+
 
 
 document.addEventListener("scroll", function() {

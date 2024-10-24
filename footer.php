@@ -23,6 +23,11 @@
 </div>
 
 <?php wp_footer(); ?>
-
+<script>
+  AOS.init({
+    once: true,
+    duration: 1000,
+  });
+</script>
 </body>
 </html>

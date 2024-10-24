@@ -203,6 +203,20 @@ function get_svg_icon($svg_name) {
     }
 }
 
+// Function to fade-up Projects
+function portfolio_enqueue_scripts() {
+    // Enqueue AOS CSS
+    wp_enqueue_style('aos-css', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css');
+
+    // Enqueue AOS JS
+    wp_enqueue_script('aos-js', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array(), null, true);
+
+    // Initialize AOS
+    wp_add_inline_script('aos-js', 'AOS.init();');
+}
+add_action('wp_enqueue_scripts', 'portfolio_enqueue_scripts');
+
+
 
 /**
  * Implement the Custom Header feature.

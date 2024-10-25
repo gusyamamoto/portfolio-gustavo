@@ -12,7 +12,7 @@
 <section class="about" id="about">
 	<section class="separator">
 
-	</svg>
+		</svg>
 		<h2>About</h2>
 
 	</section>
@@ -103,20 +103,20 @@
 					echo '<h2>' . get_field('about_title_3') . '</h2>';
 				}
 				?>
-<div class="lang-icons">
-    <div class="icon" data-name="HTML"><?php echo get_svg_icon('html'); ?></div>
-    <div class="icon" data-name="CSS"><?php echo get_svg_icon('css'); ?></div>
-    <div class="icon" data-name="Sass"><?php echo get_svg_icon('sass'); ?></div>
-    <div class="icon" data-name="PHP"><?php echo get_svg_icon('php'); ?></div>
-    <div class="icon" data-name="JavaScript"><?php echo get_svg_icon('js'); ?></div>
-    <div class="icon" data-name="React"><?php echo get_svg_icon('react'); ?></div>
-    <div class="icon" data-name="WordPress"><?php echo get_svg_icon('wordpress'); ?></div>
-    <div class="icon" data-name="WooCommerce"><?php echo get_svg_icon('woocommerce'); ?></div>
-    <div class="icon" data-name="Shopify"><?php echo get_svg_icon('shopify'); ?></div>
-    <div class="icon" data-name="Git"><?php echo get_svg_icon('git'); ?></div>
-    <div class="icon" data-name="GitHub"><?php echo get_svg_icon('github'); ?></div>
-    <div class="icon" data-name="Figma"><?php echo get_svg_icon('figma'); ?></div>
-</div>
+				<div class="lang-icons">
+					<div class="icon" data-name="HTML"><?php echo get_svg_icon('html'); ?></div>
+					<div class="icon" data-name="CSS"><?php echo get_svg_icon('css'); ?></div>
+					<div class="icon" data-name="Sass"><?php echo get_svg_icon('sass'); ?></div>
+					<div class="icon" data-name="PHP"><?php echo get_svg_icon('php'); ?></div>
+					<div class="icon" data-name="JavaScript"><?php echo get_svg_icon('js'); ?></div>
+					<div class="icon" data-name="React"><?php echo get_svg_icon('react'); ?></div>
+					<div class="icon" data-name="WordPress"><?php echo get_svg_icon('wordpress'); ?></div>
+					<div class="icon" data-name="WooCommerce"><?php echo get_svg_icon('woocommerce'); ?></div>
+					<div class="icon" data-name="Shopify"><?php echo get_svg_icon('shopify'); ?></div>
+					<div class="icon" data-name="Git"><?php echo get_svg_icon('git'); ?></div>
+					<div class="icon" data-name="GitHub"><?php echo get_svg_icon('github'); ?></div>
+					<div class="icon" data-name="Figma"><?php echo get_svg_icon('figma'); ?></div>
+				</div>
 
 			</div>
 		<?php

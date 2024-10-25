@@ -33,15 +33,6 @@ get_header();
                     </div>
                 </div>
             <?php endif; ?>
-
-            <!-- <figure class="project-thumbnail">
-                <?php
-                if (has_post_thumbnail()) {
-                    the_post_thumbnail('project-banner');
-                }
-                ?>
-            </figure> -->
-
             <div class="project-content">
                 <?php the_content(); ?>
 

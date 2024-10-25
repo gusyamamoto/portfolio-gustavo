@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
-
     img {
         margin-bottom: 2rem;
     }
@@ -31,7 +30,6 @@
 .project-images {
     margin: 0 auto;
     max-width: 60rem;
-
     img {
         border: 1px solid $color_text_white;
         margin-top: 4rem;
@@ -42,7 +40,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    // align-items: center;
     gap: 6rem;
     margin: 0 auto;
     max-width: 50rem;
@@ -54,8 +51,6 @@
 
 .project-links {
     margin-top: 3rem;
-
-    // text-align: center;
     a {
         font-size: 1.5rem;
         font-family: $font_hero;
@@ -65,12 +60,10 @@
         2px 2px 0 #000,
         3px 3px 0 #000;
     }
-
     a:hover {
         text-decoration: underline 2px $color_orange;
         @include shadow-link;
     }
-
 }
 
 .next-project {

@@ -71,7 +71,6 @@
     justify-content: center;
     align-items: center;
 
-    // margin-bottom: 10rem;
     p {
         font-size: .8rem;
     }
@@ -103,11 +102,6 @@
     }
 }
 
-#copy-email-button.copied {
-    // color: $color__background-body;
-    // background-color: $color_orange;
-}
-
 .scroll-top {
     align-self: flex-end;
 }
@@ -119,8 +113,6 @@
 
 // SOCIAL MENU
 .social-links {
-
-    // margin-top: -4rem;
     ul {
         list-style: none;
         display: flex;

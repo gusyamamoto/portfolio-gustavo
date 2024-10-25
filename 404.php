@@ -15,7 +15,7 @@ get_header();
 
 	<section class="error-404 not-found">
 		<header class="page-header">
-			<h1 class="page-title"><?php esc_html_e('Page not found.', 'portfolio-gustavo'); ?></h1>
+			<h1 class="page-title"><?php esc_html_e('WhAt ArE yOu DoInG hErE?', 'portfolio-gustavo'); ?></h1>
 		</header><!-- .page-header -->
 
 		<div class="page-content">

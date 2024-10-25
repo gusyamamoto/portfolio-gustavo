@@ -9,7 +9,6 @@
     max-width: 56.25rem;
     display: flex;
     flex-direction: column;
-    // margin: 0 auto;
 }
 
 .about-para-first, 
@@ -48,12 +47,11 @@
     }
     
 }.icon:hover::after {
-    content: attr(data-name); /* Use the data-name attribute as text */
+    content: attr(data-name);
     position: absolute;
-    bottom: -2rem; /* Position the text below the icon */
+    bottom: -2rem;
     left: 50%;
     transform: translateX(-50%);
-    // background-color: #333;
     color: #fff;
     padding: 0.3rem 0.6rem;
     border-radius: 4px;
@@ -67,7 +65,7 @@
 }
 
 .icon:hover::after {
-    opacity: 1; /* Fade in the text */
+    opacity: 1;
 }
 
 .icon {

@@ -48,68 +48,62 @@ get_header();
                 <?php if (function_exists('the_field')) : ?>
 
                     <article class="project-item project-images">
-    <?php
-    $project_image_1 = get_field('project_image_1');
-    if ($project_image_1) :
-        echo wp_get_attachment_image($project_image_1, 'full', false, array(
-            'class' => 'project-img-1', 
-            'data-aos' => 'fade-up', 
-            'data-aos-duration' => '1000'
-        ));
-    endif;
+                        <?php
+                        $project_image_1 = get_field('project_image_1');
+                        if ($project_image_1) :
+                            echo wp_get_attachment_image($project_image_1, 'full', false, array(
+                                'class' => 'project-img-1',
+                                'data-aos' => 'fade-up',
+                                'data-aos-duration' => '1000'
+                            ));
+                        endif;
 
-    $project_image_2 = get_field('project_image_2');
-    if ($project_image_2) :
-        echo wp_get_attachment_image($project_image_2, 'full', false, array(
-            'data-aos' => 'fade-up',
-            'data-aos-duration' => '1000'
-        ));
-    endif;
+                        $project_image_2 = get_field('project_image_2');
+                        if ($project_image_2) :
+                            echo wp_get_attachment_image($project_image_2, 'full', false, array(
+                                'data-aos' => 'fade-up',
+                                'data-aos-duration' => '1000'
+                            ));
+                        endif;
 
-    $project_image_3 = get_field('project_image_3');
-    if ($project_image_3) :
-        echo wp_get_attachment_image($project_image_3, 'full', false, array(
-            'data-aos' => 'fade-up',
-            'data-aos-duration' => '1000'
-        ));
-    endif;
-    ?>
+                        $project_image_3 = get_field('project_image_3');
+                        if ($project_image_3) :
+                            echo wp_get_attachment_image($project_image_3, 'full', false, array(
+                                'data-aos' => 'fade-up',
+                                'data-aos-duration' => '1000'
+                            ));
+                        endif;
+                        ?>
 
-    <div class="project-mobile-img-wrapper">
-        <?php
-        $project_image_4 = get_field('project_image_4');
-        if ($project_image_4) :
-            echo wp_get_attachment_image($project_image_4, 'full', false, array(
-                'class' => 'project-mobile-img', 
-                'data-aos' => 'fade-up', 
-                'data-aos-duration' => '1000'
-            ));
-        endif;
+                        <div class="project-mobile-img-wrapper">
+                            <?php
+                            $project_image_4 = get_field('project_image_4');
+                            if ($project_image_4) :
+                                echo wp_get_attachment_image($project_image_4, 'full', false, array(
+                                    'class' => 'project-mobile-img',
+                                    'data-aos' => 'fade-up',
+                                    'data-aos-duration' => '1000'
+                                ));
+                            endif;
 
-        $project_image_5 = get_field('project_image_5');
-        if ($project_image_5) :
-            echo wp_get_attachment_image($project_image_5, 'full', false, array(
-                'class' => 'project-mobile-img', 
-                'data-aos' => 'fade-up', 
-                'data-aos-duration' => '1000'
-            ));
-        endif;
-        ?>
-    </div>
-</article>
-
-
-
+                            $project_image_5 = get_field('project_image_5');
+                            if ($project_image_5) :
+                                echo wp_get_attachment_image($project_image_5, 'full', false, array(
+                                    'class' => 'project-mobile-img',
+                                    'data-aos' => 'fade-up',
+                                    'data-aos-duration' => '1000'
+                                ));
+                            endif;
+                            ?>
+                        </div>
+                    </article>
                     <div class="project-links">
                         <a href="<?php the_field('project_link') ?>">Live Site</a>
                         <a href="<?php the_field('project_github') ?>">Git Repository</a>
                     </div>
-
                 <?php endif; ?>
             </div><!-- .project-content -->
-
         </article><!-- #post-<?php the_ID(); ?> -->
-
         <?php
         $next_post = get_next_post();
         $first_project = get_posts(array(

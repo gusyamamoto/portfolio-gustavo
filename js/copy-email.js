@@ -4,12 +4,11 @@ function copyEmail() {
         .then(() => {
             const button = document.getElementById('copy-email-button');
             button.textContent = 'Copied!';
-            button.classList.add('copied'); // Add class to change font
+            button.classList.add('copied');
 
-            // Reset the button text and font after 4 seconds
             setTimeout(() => {
                 button.textContent = 'Copy E-mail';
-                button.classList.remove('copied'); // Remove class to revert font
+                button.classList.remove('copied');
             }, 4000);
         })
         .catch(err => {

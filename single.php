@@ -89,9 +89,10 @@ get_header();
                         </div>
                     </article>
                     <div class="project-links">
-                        <a href="<?php the_field('project_link') ?>">Live Site</a>
-                        <a href="<?php the_field('project_github') ?>">Git Repository</a>
+                        <a href="<?php the_field('project_link'); ?>" target="_blank" rel="noopener noreferrer">Live Site</a>
+                        <a href="<?php the_field('project_github'); ?>" target="_blank" rel="noopener noreferrer">Git Repository</a>
                     </div>
+
                 <?php endif; ?>
             </div><!-- .project-content -->
         </article><!-- #post-<?php the_ID(); ?> -->

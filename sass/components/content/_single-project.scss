@@ -61,7 +61,7 @@
         3px 3px 0 #000;
     }
     a:hover {
-        text-decoration: underline 2px $color_orange;
+        // text-decoration: underline 2px $color_orange;
         @include shadow-link;
     }
 }

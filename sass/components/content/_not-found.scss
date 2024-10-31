@@ -5,44 +5,51 @@
     justify-content: space-around;
     h1 {
         font-size: 4rem;
-        margin-top: 8rem;
-        font-family: $font_dirtyline;
-        font-weight: 100;
+        margin-top: 2rem;
+        font-family: $font_hero;
+        font-weight: 800;
+        margin-bottom: 0;
     }
 }
 
-.logo-404 {
-    font-family: $font_aktura;
-    font-size: 8rem;
-    margin: 0;
-    text-shadow: 
-    1px 1px 0 transparent,
-    2px 2px 0 #000,
-    3px 3px 0 #000;
-    background: linear-gradient(
-      to right,
-      rgb(255, 255, 255),
-      rgb(98, 98, 98),
-      $color_text_white,
-      rgb(35, 35, 35),
-      rgb(22, 22, 22),
-      $color_text_white,
-      rgb(98, 98, 98),
-      rgb(255, 255, 255),
-      rgb(50, 50, 50),
-      rgb(29, 29, 29),
-    );
-    background-size: 500%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: sTransition 9s ease-in-out infinite alternate;
-    animation-delay: .5s;
+.error-404{
+    .image-404 {
+        width: 28rem;
+    }
 }
-.logo-404:hover {
-    text-shadow: 
-    1px 1px 0 transparent,
-    2px 2px 0 $color_orange,
-    3px 3px 0 $color_orange;
+
+// .logo-404 {
+//     font-family: $font_aktura;
+//     font-size: 8rem;
+//     margin: 0;
+//     text-shadow: 
+//     1px 1px 0 transparent,
+//     2px 2px 0 #000,
+//     3px 3px 0 #000;
+//     background: linear-gradient(
+//       to right,
+//       rgb(255, 255, 255),
+//       rgb(98, 98, 98),
+//       $color_text_white,
+//       rgb(35, 35, 35),
+//       rgb(22, 22, 22),
+//       $color_text_white,
+//       rgb(98, 98, 98),
+//       rgb(255, 255, 255),
+//       rgb(50, 50, 50),
+//       rgb(29, 29, 29),
+//     );
+//     background-size: 500%;
+//     -webkit-background-clip: text;
+//     background-clip: text;
+//     color: transparent;
+//     animation: sTransition 9s ease-in-out infinite alternate;
+//     animation-delay: .5s;
+// }
+// .logo-404:hover {
+//     text-shadow: 
+//     1px 1px 0 transparent,
+//     2px 2px 0 $color_orange,
+//     3px 3px 0 $color_orange;
     
-}
+// }

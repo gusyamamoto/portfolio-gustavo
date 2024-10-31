@@ -15,11 +15,12 @@ get_header();
 
 	<section class="error-404 not-found">
 		<header class="page-header">
-			<h1 class="page-title"><?php esc_html_e('WhAt ArE yOu DoInG hErE?', 'portfolio-gustavo'); ?></h1>
+			<h1 class="page-title"><?php esc_html_e('What are you doing here?', 'portfolio-gustavo'); ?></h1>
 		</header><!-- .page-header -->
 
 		<div class="page-content">
-			<a href="<?php echo home_url(); ?>" class="logo-404">G</a>
+			<!-- <a href="<?php echo home_url(); ?>" class="logo-404">G</a> -->
+			 <img class="image-404" src="https://ghyamamoto.com/portfolio/wp-content/uploads/2024/10/file-1.png" alt="">
 		</div><!-- .page-content -->
 	</section><!-- .error-404 -->
 
